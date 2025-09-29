@@ -5,3 +5,9 @@ html, body {
 canvas {
   display: block;
 }
+body {
+  overflow: hidden; /* Disables both vertical and horizontal scrolling */
+  position: fixed; /* Prevents content from jumping when overflow is hidden */
+  width: 100%; /* Ensures the body maintains full width when position is fixed */
+  height: 100%; /* Ensures the body maintains full height when position is fixed */
+}
